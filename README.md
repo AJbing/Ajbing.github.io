@@ -1,11 +1,10 @@
 ﻿# AJbing的个人简历
 
 **人性非异，善假于物**
+##个人信息
 
-## 个人信息
 
-
-![markdown](https://ajbing.github.io/src/assets/images/AJbing.png)
+![markdown](https://www.mdeditor.com/images/logos/markdown.png "markdown")
 
 
 - 基本：白冰/男/1990
@@ -42,8 +41,8 @@
 
 研究乐高少儿编程机构：运营/销售/培训老师/维护客户等
 
-####焦作创想科技 （2019年11月~2020年3月）
-创业做少而编程
+#### 焦作创想科技 （2019年11月~2020年3月）
+创业做少儿编程
 
 #### 完美世界-种子教育（2020年4月~至今）
 种子教育官网前端需求
