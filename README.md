@@ -1,7 +1,8 @@
 ﻿# AJbing的个人简历
 
 **人性非异，善假于物**
-##个人信息
+
+## 个人信息
 
 
 ![markdown](https://ajbing.github.io/src/assets/images/AJbing.png)
