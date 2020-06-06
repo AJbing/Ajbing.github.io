@@ -1,0 +1,9 @@
+@charset "utf-8";
+
+.ftYahei{
+	font-family: '微软雅黑' !important;
+}
+.wBbox{
+	width: 960px;
+	margin: 0 auto;
+}

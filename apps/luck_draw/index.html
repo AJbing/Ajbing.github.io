@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>掌趣年终送福利</title>
+<!-- 	<link rel="stylesheet" type="text/css" href="css/base.css"> -->
+	<link rel="stylesheet" type="text/css" href="./css/base.css">
+	<link rel="stylesheet" type="text/css" href="./css/index_admin.css">
+	<style type="text/css">
+		fieldset{
+			border: 1px solid #3399ff;
+			border-radius: 10px;
+			padding: 10px;
+			padding-bottom:20px; 	
+		}
+		
+	</style>
+</head>
+<body>
+	<div class="wBbox">
+		<header class="ftYahei">掌趣公司年会抽奖系统设置</header>
+		<div class="line"></div>
+		<div class="container">
+			
+			  <fieldset>
+			    <legend class="ftYahei">设置抽奖的奖项和人数</legend>
+			     	<table class="right">
+			     		<thead>
+			     			<tr>
+			     				<td>奖项名称</td>
+			     				<td style="position:relative">抽取的奖项总数<b title="剩余的可以抽奖的员工总数" class="chouJiangZongShuShengYu">(50)</b></td>
+			     				<td style="position:relative">操作<div class="operation">+</div></td>
+			     			</tr>
+			     		</thead>
+			     		<tbody>
+			     			<!-- <tr>
+			     				<td>一等奖</td>
+			     				<td>5</td>
+			     				<td class="del">删除</td>	
+			     			</tr> -->
+			     		</tbody>
+			     	</table>
+			  </fieldset>
+
+		
+		</div>	
+		<div class="footer">
+			<button class="btn">应用以上设置</button>
+		</div>
+	</div>
+
+	<div class="model" style="display:none">
+		<table class="model_tr">
+			<tr>
+				<td>奖项名称</td>
+				<td>0</td>
+				<td class="del">删除</td>
+			</tr>
+		</table>
+		<span class="member">
+			<div class="meerText"></div>
+			<div class="memberDel">x</div>
+		</span>	
+	</div><!-- 为什么要写一个model 因为clone的时候 必须指定clone的就是model下的某个要克隆的要不然就会重复克隆 -->
+	<script type="text/javascript" src="../../common_src/js/jquery-1.8.1.js"></script>
+	<script type="text/javascript" src='./js/admin.js'></script>
+</body>
+</html>

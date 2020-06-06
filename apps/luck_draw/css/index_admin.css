@@ -1,0 +1,229 @@
+@charset "utf-8";
+
+.ftYahei{
+	font-family: '微软雅黑' !important;
+}
+.wBbox{
+	width: 960px;
+	margin: 0 auto;
+}
+header{
+	text-align: center;
+	font-size: 40px;
+	height: 40px;
+	line-height: 40px;	
+}
+.container{
+
+}
+form{
+	
+}
+.line{
+	height: 4px;
+	background: #3399FF;
+	border-radius: 10px;
+	margin:20px 0;
+}
+legend{
+	margin-left:10px;
+	font-size: 24px; 
+}
+table{
+	width: 100%
+}
+table tr{
+	border-bottom: 1px solid #bbb;
+	padding: 10px 0;
+	border-radius: 10px;
+}
+table tr td:last-child{
+	cursor: pointer;
+}
+table tbody tr td:nth-child(2){
+	padding-left:40px; 
+}
+table tbody td:first-child{
+	padding-left:10px; 
+}
+table tbody tr:hover{
+	background: #bbb;
+}
+table tbody tr.hover{
+	background: #bbb
+}
+table td{
+	height: 50px;
+	width: 43%;
+	line-height: 50px;
+	font-family: 'microsoft yahei';
+	font-size: 16px;
+}
+table td input{
+	height: 40px;
+	line-height: 40px;
+	float: left;
+	border: 0 none;
+	border-radius: 6px;
+	font-size: 16px;
+	font-family: 'microsoft yahei'
+}
+table td input:first-child{
+	width: 120px;
+}
+.operation{
+	cursor: pointer;
+    font-size: 24px;
+    position: absolute;
+    right: 50px;
+    top: -4px;
+}
+.model_tr{
+
+}
+.fieldset2{
+	margin-top: 30px;
+}
+.fit2Input{
+	padding:20px 0 0 12px;
+}
+.fit2Input label{
+	font-size: 18px;vertical-align: middle;
+	font-family: 'microsoft yahei'
+}
+.fit2Input input{
+	border-radius: 4px;
+	border: 1px solid #ccc;
+	padding:0 4px;
+	height: 20px;
+	line-height: 20px;
+	vertical-align: middle;
+	font-size: 14px;
+	transition:all 0.5s;
+}
+.fit2Input input:focus{
+	border: 1px solid #3399FF;
+}
+.fit2Nums{
+	padding:20px 0 0 3px;
+}
+.fit2Nums .member{
+	padding: 10px 20px;
+	background: #bbb;
+	border-radius: 6px;
+	display: block;
+	float: left;
+	margin: 10px 10px 0 0;
+	position: relative;
+	font-size: 14px;
+	transition:all 0.5s;
+}
+.fit2Nums .member:hover{
+	background: #ddd;
+}
+.fit2Nums .member .memberDel{
+	width: 18px;
+	height: 18px;
+	border-radius: 18px;
+	background: #999;
+	position: absolute;
+	text-align: center;
+	line-height: 18px;
+	font-family: 'microsoft yahei';
+	cursor: pointer;
+	right:-4px;
+	top:-8px;
+}
+
+.footer{
+	padding:20px 0 0 400px;
+}
+.btn {
+  display: inline-block;
+  *display: inline;
+  padding: 4px 12px;
+  margin-bottom: 0;
+  *margin-left: .3em;
+  font-size: 14px;
+  line-height: 20px;
+  color: #333333;
+  text-align: center;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+  vertical-align: middle;
+  cursor: pointer;
+  background-color: #f5f5f5;
+  *background-color: #e6e6e6;
+  background-image: -moz-linear-gradient(top, #ffffff, #e6e6e6);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e6e6e6));
+  background-image: -webkit-linear-gradient(top, #ffffff, #e6e6e6);
+  background-image: -o-linear-gradient(top, #ffffff, #e6e6e6);
+  background-image: linear-gradient(to bottom, #ffffff, #e6e6e6);
+  background-repeat: repeat-x;
+  border: 1px solid #cccccc;
+  *border: 0;
+  border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  border-bottom-color: #b3b3b3;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe6e6e6', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+  *zoom: 1;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+     -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+          box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active,
+.btn.active,
+.btn.disabled,
+.btn[disabled] {
+  color: #333333;
+  background-color: #e6e6e6;
+  *background-color: #d9d9d9;
+}
+
+.btn:active,
+.btn.active {
+  background-color: #cccccc \9;
+}
+
+.btn:first-child {
+  *margin-left: 0;
+}
+
+.btn:hover,
+.btn:focus {
+  color: #333333;
+  text-decoration: none;
+  background-position: 0 -15px;
+  -webkit-transition: background-position 0.1s linear;
+     -moz-transition: background-position 0.1s linear;
+       -o-transition: background-position 0.1s linear;
+          transition: background-position 0.1s linear;
+}
+
+.btn:focus {
+  outline: thin dotted #333;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+.btn.active,
+.btn:active {
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+     -moz-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+          box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+.chouJiangZongShuShengYu{
+	position: absolute;
+	top: 0;
+	right: 250px;
+	font-style: italic;
+	color: #999;
+}

@@ -1,0 +1,62 @@
+@charset "utf-8";
+html{-webkit-text-size-adjust:none;}
+body,div,ul,ol,li,dl,dt,dd,blockquote,q,p,form,fieldset,legend,select,input,textarea,table,td,th,pre,h1,h2,h3,h4,h5,h6{margin:0;padding:0;}
+body,input,select,textarea{font:12px/1.5em "宋体","Arial Narrow";}
+p{word-break:break-all;word-wrap:break-word}
+h1,h2,h3,h4,h5,h6{font-size:100%; font-weight:500;text-align: center;}
+address,cite,dfn,em,var{font-style:normal;}
+ol,ul{list-style: none;}
+input,select,textarea{outline:none;}
+textarea{resize:none;}
+sub{vertical-align:text-top;}
+sup{vertical-align:text-bottom;}
+table{border-collapse:collapse;border-spacing:0;}
+th{text-align:inherit;}
+a{text-decoration: none;}
+a img,img,fieldset{border:none;}
+iframe{ display:block;}
+abbr,acronym{border:none;}
+
+
+/*去除邊框*/
+.delBor{border:none !important;}
+.delBort{border-top:none !important;}
+.delBorb{border-bottom:none !important;}
+.delBorl{border-left:none !important;}
+.delBorr{border-right:none !important;}
+/*文字颜色排版*/
+.f12{font-size:12px}.f13{font-size:13px}.f14{font-size:14px}.f16{font-size:16px}.f20{font-size:20px}.f24{font-size:24px}
+.fb{font-weight:bold}.fn{font-weight:normal}
+.t2{text-indent:2em}
+
+.lh150{line-height:150%}.lh180{line-height:180%}.lh200{line-height:200%}
+.color2{color:#2277CC}.color0{color:#000}.colorB6{color:#B6B7B9}.colorCc{color:#ccc}.colorDa{color:#da1717;}
+.colorff{color:#fff}.color0a{color:#0A68B0}.color66{color:#666}.color44{color:#444}.color43{color:#438BC2}.colorCA{color:#CA3C2C}
+.color99{color:#999}
+/*定位*/
+.tl{text-align:left}.tr{text-align:right}.tc{text-align:center} 
+.fl{float:left;display:inline}.fr{float:right;display:inline}
+.cb{clear:both}.cl{clear:left}.cr{clear:right}
+.clearfix:after {content: ".";display: block;height: 0;clear:both;visibility: hidden;}
+.zoom{zoom:1}.hidden{visibility:hidden}.none{display:none}
+.pr{position:relative}.pa{position:absolute}
+/*边距*/
+.m10{margin:10px;}.m15{margin:15px 0 0 15px}
+.mt10{margin-top:10px}.mt20{margin-top:20px}
+.ml10{margin-left:10px}.ml20{margin-left:20px}.ml30{margin-left:30px}
+.p10{padding:10px;}.p20{padding:20px;}
+.pt10{padding-top:10px}
+.pl20{padding-left:20px}
+.pr10{padding-right:10px}.pr40{padding-right:40px}
+.pl10{padding-left:10px}.pb10{padding-bottom:10px}
+.pl40{padding-left:40px}.pl60{padding-left:60px;}
+/*高亮*/
+.current{color:red}
+/*haslayout*/
+.zoom{zoom:1}
+/*手势*/
+.pointer{cursor:pointer}
+/*缩进*/
+.ti2{text-indent:2em}
+/*弹窗*/
+.tcbackgroup{background:#555;padding:5px;position:absolute; z-index:0; filter:Alpha(Opacity=25);opacity:0.25}
