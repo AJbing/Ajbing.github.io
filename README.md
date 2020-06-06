@@ -4,7 +4,7 @@
 ##个人信息
 
 
-![markdown](https://www.mdeditor.com/images/logos/markdown.png "markdown")
+![markdown](https://ajbing.github.io/src/assets/images/AJbing.png)
 
 
 - 基本：白冰/男/1990
