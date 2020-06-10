@@ -4,8 +4,6 @@
 ##个人信息
 
 
-![markdown](https://www.mdeditor.com/images/logos/markdown.png "markdown")
-
 
 - 基本：白冰/男/1990
 - 前端工作年限：7
